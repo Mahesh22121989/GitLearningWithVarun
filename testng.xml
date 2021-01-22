@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+      <parameter name="Browser" value="Chrome" />
+      <parameter name="instance_dtd" value="dtdev" />
+    <classes>
+      <class name="org.login.Dispatchtrack.dtdev_login"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

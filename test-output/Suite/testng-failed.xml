@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="instance_dtd" value="dtdev"/>
+  <parameter name="Browser" value="Chrome"/>
+  <test name="Test(failed)">
+    <parameter name="instance_dtd" value="dtdev"/>
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="org.login.Dispatchtrack.dtdev_login">
+        <methods>
+          <include name="DTD_Login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.login.Dispatchtrack.dtdev_login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
