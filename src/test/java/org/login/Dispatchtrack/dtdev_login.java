@@ -53,6 +53,10 @@ public class dtdev_login {
 					"G://Selenium_Setup//Microsoft_Edge//5.1//MicrosoftWebDriver.exe");
 			wd = new EdgeDriver();
 			wd.manage().window().maximize();
+			System.out.println("Develop_Branch_1");
+			System.out.println("Develop_Branch_2");
+			System.out.println("Develop_Branch_3");
+			System.out.println("Develop_Branch_4");
 		}
 	}
 	@Parameters("instance_dtd")
