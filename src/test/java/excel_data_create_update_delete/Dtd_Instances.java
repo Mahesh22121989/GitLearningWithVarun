@@ -30,6 +30,7 @@ public class Dtd_Instances {
 	FileInputStream fis;
 	FileOutputStream fos;
 	File fil;
+	File fill;
 	String file_location = "G:\\DTD_Project\\Excel\\Login.xlsx";
 
 	@Test(enabled = false)
