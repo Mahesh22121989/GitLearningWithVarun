@@ -56,6 +56,9 @@ public class Dtd_Instances {
 		xswb.write(fos);
 		fos.close();
 		xswb.close();
+		System.out.println("Mahesh1");
+		System.out.println("Mahesh2");
+		System.out.println("Mahesh3");
 	}
 
 	@Test(enabled=false)
